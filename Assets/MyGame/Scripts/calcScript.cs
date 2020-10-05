@@ -1,26 +1,32 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
-using TMPro;
 
 public class calcScript : MonoBehaviour
 {
-    public GameObject goInputA, goInputB;
-    public GameObject result;
+    public InputField varA;
+    public InputField varB;
+    public Text solution;
+    public Button btn;
+    public Button nxtbtn;
 
-    private InputField fieldA, fieldB;
-
-    // Start is called before the first frame update
-    void Start()
+    public void GetSolution()
     {
-        fieldA = goInputA.GetComponent<InputField>();
-        fieldB = goInputB.GetComponent<InputField>();
+        solution.text = AddNumbers().ToString();
+
     }
 
-    public void AddNumbers()
+
+    private int AddNumbers()
     {
-        result.GetComponent<TextMeshProUGUI>().text = (int.Parse(fieldA.text) + int.Parse(fieldB.text)).ToString();
+        int tempResult = int.Parse(varA.text) + int.Parse(varB.text);
+        return tempResult;
+
+    }
+
+
+    public void ChangeScene(string scene)
+    {
+        SceneManager.LoadScene(scene);
     }
 }

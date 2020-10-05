@@ -1107,9 +1107,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3dd6a5b574824864aeb5d911436caee, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  goInputA: {fileID: 102808249}
-  goInputB: {fileID: 534509484}
-  result: {fileID: 1718114996}
+  varA: {fileID: 102808251}
+  varB: {fileID: 534509486}
+  result: {fileID: 1718114998}
+  btn: {fileID: 0}
+  nxtbtn: {fileID: 0}
 --- !u!4 &1284555679
 Transform:
   m_ObjectHideFlags: 0

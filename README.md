@@ -1,6 +1,6 @@
 # 00inclass-Recap-schiderf  
 ### Project description: 
-Simple Programm with three scenes, a random color changer and a calculator
+Simple Programm with three scenes, a random color changer and a calculator. The first Scene is a welcomescene with a next Button. In the second Scene a rectangle changes random to 1 of 4 colors, when a button is pressed. The third is a simple additional calculator.
 
 ### Development platform: 
 
@@ -10,9 +10,7 @@ Simple Programm with three scenes, a random color changer and a calculator
 
 
 ### Target platform: 
-WebGL
-
-### Visuals: 
+WebGL (900x600)
 
 
 ### Necessary setup/execution steps: 
@@ -30,7 +28,7 @@ incl. progress in percent
 None
 
 ### Lessons Learned: 
-
+relearning stuff from last year and i learned how to make arandom generator.
 
 
 Copyright by Schider Felix
